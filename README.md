@@ -9,6 +9,8 @@ Docker swarm uses the Raft Consensus Algorithm to manage the global cluster stat
 
 Raft tolerates up to “(N-1) / 2" failures and requires a majority of manager nodes to agree on values proposed to the cluster, which translates to “(N/2) + 1” manager nodes.
 
+We will be implementing this for AWS.
+
 Master nodes:
 
 Master -1
